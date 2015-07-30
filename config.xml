@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.acheidetudo.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Achei de Tudo</name>
+    <description>
+        Este Aplicativo assim como nosso site tem a função de facilitar a busca de empresas de várias cidades brasileiras. As empresas podem se cadastrar gratuitamente com um anúncio básico e também poderão escolher entre anúncios de destaque e banners disponíveis em nosso site e também no app, pagando uma pequena parcela mensal. As empresas anunciantes que contratarem os anúncios de destaque e os banners terão ainda acesso gratuito a uma central onde poderão ficar online e falar ao vivo com os possíveis clientes. Pensamos numa forma de tornar as buscas mais agradáveis, setorizadas e ágeis pois hoje em dia ninguém mais tem tempo a perder procurando em muitos lugares e na maioria das vezes em sites confusos e com resultados que não correspondem com a realidade. O Achei de tudo também conta com um produto inovador que é uma Agenda diária que possui em suas ultimas páginas anúncios impressos de vários segmentos onde o usuário poderá além de ter uma agenda diária ter os anunciantes sempre a mão. A Agenda Achei de Tudo tem a distribuição gratuita pelos próprios anunciantes que compram o anúncio e tem o valor investido em Agendas pra presentear seus clientes. A tiragem da agenda depende do número de anunciantes mas tem em sua primeira edição uma tiragem estimada em 10 mil exemplares. Esta primeira edição será comercializada na cidade de Conselheiro Lafaiete, mas na segunda edição planejamos comercializarmos em várias outras cidades. Seja bem vindo ao futuro, afinal o futuro é agora! Achei de Tudo, aqui meia palavra basta!
+    </description>
+    <author email="support@codigox.net" href="http://acheidetudo.com.br">
+        Codigo X
+    </author>
+    <content src="index.html" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="landscap" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <icon src="icon.png" />
+    <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="www/res/icon/android/icon-96-xhdpi.png" />
+    <icon gap:platform="blackberry" src="www/res/icon/blackberry/icon-80.png" />
+    <icon gap:platform="blackberry" gap:state="hover" src="www/res/icon/blackberry/icon-80.png" />
+    <icon gap:platform="ios" height="57" src="www/res/icon/ios/icon-57.png" width="57" />
+    <icon gap:platform="ios" height="72" src="www/res/icon/ios/icon-72.png" width="72" />
+    <icon gap:platform="ios" height="114" src="www/res/icon/ios/icon-57-2x.png" width="114" />
+    <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
+    <icon gap:platform="webos" src="www/res/icon/webos/icon-64.png" />
+    <icon gap:platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
+    <icon gap:platform="winphone" gap:role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
+    <gap:splash gap:platform="blackberry" src="www/res/screen/blackberry/screen-225.png" />
+    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
+    <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/icon-173-tile.png" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
